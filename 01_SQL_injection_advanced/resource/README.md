@@ -2,7 +2,8 @@
 A union attack attempts to pull information from an additional table that is not the current table that is being queried.
 
 ### Step 1
-> * Input is data search using ID's, try tentative search with integer and then without
+> * http://0.0.0.0/index.php?page=searchimg
+> * Input into data search using ID's, try tentative search with integer and then without
 
 ### Step 2
 > * Confirm SQL vulnerabitlity with 1 = 1 or 1, this one however does not return error messages
