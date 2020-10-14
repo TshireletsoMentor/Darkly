@@ -1,7 +1,7 @@
 # Cross-site Scripting (XSS)
 Cross-site scripting consists of injecting malicious code into a vulnerable site. When implemented actively, it aims to access any: cookies, session tokens, or other sensitive information retained by the browser and used with that site.  
 
-# Stored XX attack
+# Stored XXS attack
 
 ### Step 1
 Navigate to http://0.0.0.0/index.php?page=feedback
