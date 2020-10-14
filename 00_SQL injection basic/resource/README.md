@@ -16,7 +16,6 @@ A union attack attempts to pull information from an additional table that is not
 >
 > 2. Find tables within current database  
  >_1 or 1 = 1 UNION SELECT 1,concat(table_name) FROM information_schema.tables WHERE table_schema = database()_  
->
 > **users**
 >
 >3. Find columns within desired table  
