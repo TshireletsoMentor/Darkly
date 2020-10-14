@@ -3,7 +3,7 @@
 Introduction into cyber security
 
 The aim of this project is to introduce you to computer security in the web domain.
-You will be able to discover **OWASP** [GitHub](http://github.com), which is, no more and no less, the biggest web security project to date.
+You will be able to discover  [**OWASP**](https://owasp.org/www-project-top-ten/), which is, no more and no less, the biggest web security project to date.
 
 ## Requirements
 * Virtual machine 
