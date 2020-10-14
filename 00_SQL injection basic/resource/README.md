@@ -10,7 +10,7 @@ A union attack attempts to pull information from an additional table that is not
 ### Step 3
 > * Attack
 > 1. Confirm number off return columns and data types
- > * trial and error: 
+ > * trial and error:  
 > _1 = 1 or 1 ORDER BY 1_...  
 > _UNION SELECT ‘a’,NULL_...
 >
