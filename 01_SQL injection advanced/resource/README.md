@@ -28,4 +28,4 @@ A union attack attempts to pull information from an additional table that is not
  <br> _toLower -> albatroz => albatroz_  
  <br>_Sh256 ENCRYPT -> albatroz => **f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188**_  
 
-https://medium.com/@nyomanpradipta120/sql-injection-union-attack-9c10de1a5635
+* https://medium.com/@nyomanpradipta120/sql-injection-union-attack-9c10de1a5635

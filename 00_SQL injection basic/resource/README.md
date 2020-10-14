@@ -28,4 +28,4 @@ A union attack attempts to pull information from an additional table that is not
  <br> _toLower -> FortyTwo => fortytwo_  
  <br>_Sh256 ENCRYPT -> fortytwo => **10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5**_  
 
-https://medium.com/@nyomanpradipta120/sql-injection-union-attack-9c10de1a5635
+* https://medium.com/@nyomanpradipta120/sql-injection-union-attack-9c10de1a5635
