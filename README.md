@@ -11,7 +11,6 @@ You will be able to discover **OWASP**, which is, no more and no less, the bigge
 
 There are 14 loopholes to acquire that all result in a **Flag** mostly accompanied by the win image -> 
 
-![WIN](https://github.com/TshireletsoMentor/Darkly/blob/main/win.png)
-img[alt=flag_found] { width: 200px; }
+<img src="https://github.com/TshireletsoMentor/Darkly/blob/main/win.png" width="200" alt="flag logo">
 
 
