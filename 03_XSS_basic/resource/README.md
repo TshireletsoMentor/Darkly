@@ -14,7 +14,7 @@ Navigate to http://0.0.0.0/index.php?page=feedback
 ### Step 1
 > * Attack
 > 1. <script>alert()</script>
-> * input <script>al in name field  
+> * input _<script>al_ in name field  
 **The flag is : 0FBB54BBF7D099713CA4BE297E1BC7DA0173D8B3C21C1811B916A3A86652724E**
 
 * https://owasp.org/www-community/attacks/xss/
