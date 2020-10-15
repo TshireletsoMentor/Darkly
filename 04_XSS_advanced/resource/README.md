@@ -1,12 +1,12 @@
 # Cross-site Scripting (XSS)
 Cross-site scripting consists of injecting malicious code into a vulnerable site. When implemented actively, it aims to access any: cookies, session tokens, or other sensitive information retained by the browser and used with that site.  
 
-# Stored XXS attack
+# Stored XXS attack / data URI XSS
 
 ### Step 1
 Navigate to http://0.0.0.0/index.php
 > * Inspect page and find the _src="http://0.0.0.0/index.php?page=media&src=nsa"_ link
-> * Kinda redirects to media source: image
+> * Kinda redirects to media source: _nsa_ image
 
 ### Step 2
 > * Inspect page, look up the head section.
