@@ -11,7 +11,7 @@ Navigate to http://0.0.0.0/index.php?page=feedback
 > * Inspect page, test out limits of form validation: empty name input and/or empty message input  
 > * Only name input needs validation, and thus was the flag hint  
 
-### Step 1
+### Step 3
 > * Attack
 > 1. <script>alert()</script>
 > * input _<script>al_ in name field  
