@@ -1,4 +1,4 @@
-# Brute Force
+# Broken Access Control - Brute Force
 The basis of a brute force consists of an attacker submitting many passwords or passphrases with the hope of eventually guessing correctly.
 
 ### Step 1
