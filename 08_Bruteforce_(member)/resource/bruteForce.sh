@@ -1,4 +1,13 @@
-IP=
+IP=`head -n 1 '../../src/env_IP'`
+IP_len=${#IP}
+if [[ IP_len -gt 0 ]]
+then
+  continue
+else
+  echo "Input server IP address:" 
+  read IP
+fi
+
 # arrays can be made more exstensive for increase credential cracking
 usernames=(root admin test guest info adm mysql user administrator oracle ftp pi puppet ansible ec2-user vagrant azureuser)
 passwords=(root admin test shadow matrix ghost sleeper slider guest 123456 aaron jun rebecca einstein anna sara singnin amy 12345 !@#$%^ 555555 tracy  password1)
