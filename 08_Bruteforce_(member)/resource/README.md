@@ -7,6 +7,7 @@ Navigate to http://0.0.0.0/index.php?page=signin
 > * Trial and error username and password inputs, according to .htaccess, the username should be root
 
 ### Step 2
+* Attack
 Use cURL to implement brute force
 > * use common usernames and passwords https://github.com/danielmiessler/SecLists/tree/master/Usernames
 > * implement sh bruteForce.sh
