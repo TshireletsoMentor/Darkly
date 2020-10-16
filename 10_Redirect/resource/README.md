@@ -8,7 +8,7 @@ In this instance we were required to add a destination to our link, only demonst
 Navigate to http://0.0.0.0/ *inspect the footer section
 > * edit the redirect site source _http://0.0.0.0/index.php?page=redirect&site=#javascript:alert(document.cookie)_
 > * this if allowed to redirect would show the current cookie 
-**B9E775A0291FED784A2D9680FCFAD7EDD6B8CDF87648DA647AAF4BBA288BCAB3**
+> * **THE FLAG IS :B9E775A0291FED784A2D9680FCFAD7EDD6B8CDF87648DA647AAF4BBA288BCAB3**
 
 
 https://blog.detectify.com/2016/08/15/owasp-top-10-unvalidated-redirects-and-forwards-10/
