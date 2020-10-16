@@ -15,5 +15,5 @@ There are 14 loopholes to exploit that all result in a **Flag** and are mostly a
 
 <img src="https://github.com/TshireletsoMentor/Darkly/blob/main/src/win.png" width="150" alt="flag logo">
 
-**Add the server IP address to the first line of the env_IP file**
+**Add the server IP address to the first line of the src/env_IP file**
 
