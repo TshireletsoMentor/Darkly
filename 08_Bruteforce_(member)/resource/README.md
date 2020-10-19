@@ -17,3 +17,7 @@ Use cURL to implement brute force
 
 https://www.varonis.com/blog/brute-force-attack/
 
+## Prevention
+> * Limit failed login attempts
+> * Use Captcha
+> * https://phoenixnap.com/kb/prevent-brute-force-attacks

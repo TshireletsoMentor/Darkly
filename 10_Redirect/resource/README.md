@@ -14,3 +14,8 @@ Navigate to http://0.0.0.0/ *inspect the footer section
 https://blog.detectify.com/2016/08/15/owasp-top-10-unvalidated-redirects-and-forwards-10/
 
 https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/04-Testing_for_Client_Side_URL_Redirect
+
+## Prevention
+> * Simply avoid using redirects and forwards.
+> * If used, do not allow the URL as user input for the destination.
+> * https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html

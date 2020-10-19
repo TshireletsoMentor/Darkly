@@ -24,3 +24,9 @@ https://portswigger.net/web-security/cross-site-scripting/content-security-polic
 http://cubalo.github.io/blog/2014/01/04/bypassing-xss-filters-using-data-uris/
 
 https://www.base64decode.org/
+
+## Prevention
+> * Filter input on arrival: sanitize input.
+> * Use appropriate response headers: use the Content-Type and X-Content-Type-Options headers to ensure that browsers interpret the responses in the way you intend.
+> * Content Security Policy.
+> * https://portswigger.net/web-security/cross-site-scripting

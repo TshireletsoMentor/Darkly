@@ -15,3 +15,7 @@ Navigate to http://0.0.0.0/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7
 http://mixedbit.org/referer.html
 
 https://ec.haxx.se/http/http-requests
+
+## Prevention
+> * Use a referrer policy
+> * https://web.dev/referrer-best-practices/

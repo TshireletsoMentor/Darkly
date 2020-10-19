@@ -8,3 +8,6 @@ Navigate to http://0.0.0.0/?page=survey
 > * Inspect the page, alter the _form select option_'s, inputting a highed numerical value.
 > * Thereafter, select that altered option.
 > * **THE FLAG IS : 03A944B434D5BAFF05F46C4BEDE5792551A2595574BCAFC9A6E25F67C382CCAA**
+
+## Prevention
+> * Process on the backend: validate input.

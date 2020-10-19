@@ -29,4 +29,8 @@ Navigate to http://0.0.0.0/index.php?page=member
  <br> _toLower -> FortyTwo => fortytwo_  
  <br>_Sh256 ENCRYPT -> fortytwo => **10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5**_  
 
-* https://medium.com/@nyomanpradipta120/sql-injection-union-attack-9c10de1a5635
+> * https://medium.com/@nyomanpradipta120/sql-injection-union-attack-9c10de1a5635
+
+## Prevention
+> * Prepared statements: allows the database to distinguish between code and data, regardless of what user input is supplied.
+> * https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html

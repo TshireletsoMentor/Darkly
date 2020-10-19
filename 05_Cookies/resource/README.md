@@ -20,3 +20,8 @@ https://searchsecurity.techtarget.com/definition/cookie-poisoning
 https://catonmat.net/cookbooks/curl/set-cookies
 
 https://www.md5online.org/md5-decrypt.html
+
+## Prevention
+> * Just don't use cookies
+> * https://www.webdesignerdepot.com/2019/06/does-the-web-really-need-cookies/
+> * https://www.venafi.com/blog/what-are-cookie-poisoning-attacks-0

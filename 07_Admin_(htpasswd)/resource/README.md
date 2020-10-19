@@ -1,5 +1,5 @@
 # Bypassing Basic HTTP Authentication
-Basic authentication(BA) is a simple authentication scheme built into the HTTP protocol. BA credentials are within the .htpasswd, these contain in addition to the user credentials, some authentication rules that a HTTP user-agent must adhere to grant access to server information. 
+Basic authentication(BA) is a simple authentication scheme built into the HTTP protocol. BA credentials are within the .htpasswd, these contain in addition to the user credentials, some authentication rules that a HTTP user-agent must adhere to grant access to server information. The driver for BA is held within a .htaccess file, it is a configuration file.
 
 ### Step 1
 Navigate to http://0.0.0.0/robots.txt
@@ -23,3 +23,9 @@ https://www.seobility.net/en/wiki/Robots.txt?utm_source=google&utm_medium=cpc&ut
 https://www.md5online.org/md5-decrypt.html
 
 https://md5decrypt.net/en/Sha256/#answer
+
+## Prevention
+> * Prevent the access of .htaccess
+> * Prevent the editing of .htacess
+> * https://perishablepress.com/detect-attacks-php-htaccess/
+> * https://htaccessbook.com/control-request-methods/

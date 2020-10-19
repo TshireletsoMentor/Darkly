@@ -19,3 +19,7 @@ https://resources.infosecinstitute.com/php-lab-file-upload-vulnerabilities/
 https://curl.haxx.se/mail/archive-2003-04/0135.html
 
 https://medium.com/@gupta.bless/exploiting-unrestricted-file-upload-vulnerabilities-4831aa839b25
+
+## Prevention
+> * Requires extensive methods. Content-type header validation, file extension validation and the use of a file type detector
+> * https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload

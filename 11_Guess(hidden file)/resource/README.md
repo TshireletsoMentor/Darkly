@@ -18,3 +18,7 @@ Navigate to http://0.0.0.0/robots.txt
 > * **THE FLAG IS : 99dde1d35d1fdd283924d84e6d9f1d820**
 
 https://owasp.org/www-community/attacks/Path_Traversal
+
+## Prevention
+> * Validate input, append the input to the base directory and use a platform filesystem API to canonicalize the path. It should verify that the canonicalized path starts with the expected base directory.
+> * https://portswigger.net/web-security/file-path-traversal
